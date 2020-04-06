@@ -1,0 +1,68 @@
+<!--index.wxml-->
+<!-- 轮播图 -->
+<swiper autoplay indicator-dots>
+	<swiper-item>
+		<image src="http://122.51.238.153/static/uploads/slide_1.jpg"></image>
+	</swiper-item>
+	<swiper-item>
+		<image src="http://122.51.238.153/static/uploads/slide_2.jpg"></image>
+	</swiper-item>
+	<swiper-item>
+		<image src="http://122.51.238.153/static/uploads/slide_3.jpg"></image>
+	</swiper-item>
+	<swiper-item>
+		<image src="http://122.51.238.153/static/uploads/slide_4.jpg"></image>
+	</swiper-item>
+	<swiper-item>
+		<image src="http://122.51.238.153/static/uploads/slide_5.jpg"></image>
+	</swiper-item>
+</swiper>
+<!-- 活动标题 -->
+<view class="box">
+	<view class="title">乐园活动</view>
+	<view class="item first">
+		<!-- 活动封面 相当于a连接跳转-->
+		<navigator url="">
+			<image src="http://122.51.238.153/static/uploads/item_1.png"></image>
+		</navigator>
+		<!-- 活动名称 -->
+		<view class="name">疯狂的红包 不一样的撕名牌 大型家庭亲子 户外活动</view>
+		<!-- 其他 -->
+		<view class="extra">
+			<text class="iconfont icon-guoqiflag49" >200人已报名</text>
+			<text class="iconfont icon-shizhong">本周六开始</text>
+		</view>
+		<!-- 状态 -->
+		<view class="status">免费</view>
+	</view>
+  <view class="item">
+		<!-- 活动封面 相当于a连接跳转-->
+		<navigator url="">
+			<image src="http://122.51.238.153/static/uploads/item_2.png"></image>
+		</navigator>
+		<!-- 活动名称 -->
+		<view class="name">疯狂的红包 不一样的撕名牌 大型家庭亲子 户外活动</view>
+		<!-- 其他 -->
+		<view class="extra">
+			<text>200人已报名</text>
+			<text class="iconfont">本周六开始</text>
+		</view>
+		<!-- 状态 -->
+		<view class="status">免费</view>
+	</view>
+  <view class="item">
+		<!-- 活动封面 相当于a连接跳转-->
+		<navigator url="">
+			<image src="http://122.51.238.153/static/uploads/item_3.png"></image>
+		</navigator>
+		<!-- 活动名称 -->
+		<view class="name">摄影兴趣班- 7天教会你精通摄影，培养孩子兴趣从娃娃抓起</view>
+		<!-- 其他 -->
+		<view class="extra">
+			<text>200人已报名</text>
+			<text class="iconfont">本周六开始</text>
+		</view>
+		<!-- 状态 -->
+		<view class="status">免费</view>
+	</view>
+</view>
